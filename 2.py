@@ -41,6 +41,6 @@ def q():
     res3 = requests.get(url=url3,allow_redirects=False, headers=headers3).text
 
 
-for i in range(60):
+for i in range(55):
     t = threading.Thread(target=q)
     t.start()
