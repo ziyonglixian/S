@@ -1,4 +1,4 @@
-name: 回帖
+name: 1
 
 on: 
   workflow_dispatch:
@@ -29,7 +29,5 @@ jobs:
     - name: start
       run: |
         python 1.py
-        python 2.py
       env: 
         COOKIESS: ${{ secrets.COOKIESS }}
-        COOKIESS2: ${{ secrets.COOKIESS2 }}
