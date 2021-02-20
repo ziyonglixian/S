@@ -29,5 +29,7 @@ jobs:
     - name: start
       run: |
         python 1.py
+        python 2.py
       env: 
         COOKIESS: ${{ secrets.COOKIESS }}
+        COOKIESS2: ${{ secrets.COOKIESS2 }}
